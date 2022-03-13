@@ -4,10 +4,10 @@
 [Heroku link]()
 
 # PR
-[PR]()  
+[PR](https://github.com/Oubaida996/auth-api/pull/1)  
 
 # Actions
-[Action]()
+[Action](https://github.com/Oubaida996/auth-api/actions)
 
 /users get request    
  
