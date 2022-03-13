@@ -7,7 +7,10 @@
 [PR](https://github.com/Oubaida996/auth-api/pull/1)  
 
 # Actions
-[Action](https://github.com/Oubaida996/auth-api/actions)
+[Action](https://github.com/Oubaida996/auth-api/actions)  
+
+
+https://obieda-auth-api.herokuapp.com/api/v1/foods
 
 /users get request    
  
