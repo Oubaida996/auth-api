@@ -5,8 +5,8 @@
 const { Sequelize, DataTypes } = require('sequelize');
 const Collection = require('../classes/Collection');
 const Users = require('./user.model');
-const Categories = require('./food.model');
-const Products = require('./clothes.model');
+const Categories = require('./categories.model');
+const Products = require('./products.model');
 require('dotenv').config();
 
 
