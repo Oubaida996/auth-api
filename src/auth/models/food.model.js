@@ -3,22 +3,24 @@
 
 
 
-const Foods = (db, DataTypes) => db.define('foods',
+const Categories = (db, DataTypes) => db.define('categories',
 
     {
-        foodName: {
+        normalizedName: {
             type: DataTypes.STRING,
-            allowNull: false
+            // allowNull: false
         },
 
-        categoryName: {
+        dispalyName: {
+            type: DataTypes.STRING,
+        },
+        description: {
             type: DataTypes.STRING,
         }
-
 
 
     }
 );
 
 
-module.exports =Foods;
+module.exports = Categories;
