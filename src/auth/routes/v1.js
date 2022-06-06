@@ -48,7 +48,8 @@ async function updateModelById(req, res) {
     let { id } = req.params;
     let { body } = req;
     let updateRecord = await req.model.updateData(id, body);
-    res.json(updateRecord);
+    let oneRecordFormTable = await req.model.getData(id);
+    res.json(oneRecordFormTable);
 }
 
 
